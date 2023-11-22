@@ -3,6 +3,9 @@ function Rodizio(){
     var placa = document.getElementById("placa").value;
     var semana = document.getElementById("semana").value;
 
+    alert(placa);
+    alert(semana);
+
 if ((placa == 1 || placa == 2) && (semana == 1)) {
     texto.innerHTML = "Não Pode Circular";
 }
